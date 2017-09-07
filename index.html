@@ -36,7 +36,7 @@
             $('body').delay(350).css({'overflow':'visible'});
           })
     //]]>
-          </script>
+        </script>
         
     
     </head>
@@ -296,14 +296,14 @@
                                     <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
                                 </div>
 
-                                <button type="submit" class="btn btn-custom-1-inverse" style="border:2px solid white;">
+                                <button type="submit" class="btn btn-custom-1-inverse" style="border:2px solid white;" onclick="">
                                     <i class="fa fa-bullhorn icon-before"></i> Send it
                                 </button>
 
                             </div>
 
-                            <!-- <div class="ajax-response">Your query has been successfuly submitted</div> --><!-- Displays status when submitting form -->
-
+                            <div id="ajax-response1" >Your query has been successfuly submitted</div>
+                            <div id="ajax-response2" >Please give your email-id!</div>
                         </form>
 
                     </div><!-- .col -->

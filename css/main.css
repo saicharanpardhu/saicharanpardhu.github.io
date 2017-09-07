@@ -475,3 +475,10 @@ video.bgvid {
 .icon-widget li{
 display: inline-block;
 }
+
+#ajax-response1{
+display: none;
+}
+#ajax-response2{
+display: none;
+}
